@@ -4,23 +4,20 @@ CIS 560 project - Monte Carlo Path Tracer
 Basic Monte Carlo path tracer implementation.
 
 
-**Sample renders**
-------------------
-disc as light source  
-![disc1](Renders/disc.bmp)  
+## Sample renders
+### Different light source types:
 
--------------------------
-cube as light source  
-![](Renders/cubeLightSource.bmp)  
-    
--------------------------
-mesh obj as light source  
-![](Renders/meshLightSource.bmp)  
+|Disc|Cube|
+|------|------|
+|![disc1](Renders/disc.bmp) |![](Renders/cubeLightSource.bmp) |
 
--------------------------
-ring(extra requirement) as light source  
-![](Renders/ringLightSource.bmp)  
+|Mesh|Ring|
+|------|------|
+|![](Renders/meshLightSource.bmp) |![](Renders/ringLightSource.bmp)  |
+<br>
 
--------------------------
-new BRDF implementation - Phong  
-![](Renders/textured_phong_and_white_lambert.bmp)
+### new BRDF implementation
+
+|Phong BxDF|
+|----------|
+|![](Renders/textured_phong_and_white_lambert.bmp)|
